@@ -380,7 +380,7 @@ input, textarea, select, button { font-family: inherit; font-size: inherit; }
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
@@ -559,7 +559,7 @@ input, textarea, select, button { font-family: inherit; font-size: inherit; }
 
 .why-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
@@ -753,7 +753,7 @@ input, textarea, select, button { font-family: inherit; font-size: inherit; }
   height: 52px;
   width: auto;
   object-fit: contain;
-  filter: brightness(0) invert(1);
+  /* filter: brightness(0) invert(1); */
   margin-bottom: 1rem;
 }
 .footer-brand p { font-size: .9rem; line-height: 1.7; max-width: 28ch; }
